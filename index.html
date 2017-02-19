@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<script type="text/javascript" src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src = "./assets/game.js"></script>
+</head>
+<body>
+
+	<h1>Crystal Collector Game!</h1>
+		<span class = "instructions">
+			<h2>Instructions:</h2>
+
+			<p>You will be given a random number at the start of the game.</p>
+
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+			<p>You wiin the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</span>
+
+		<span class = "scoreboard">
+			<h4>Wins:</h4>
+				<span class = "wins"></span>
+			<h4>Losses:</h4>
+				<span class = "losses"></span>
+		</span>
+
+		<span class = "target-number">
+			<h1>Target Score:</h1>
+				<div class = "target"></div>	
+		</span>
+
+		<span class = "total">
+			<h1>Your Score:</h1>
+				<div class = "score"></div>			
+		</span>
+
+	<span class = "crystal-space">
+		<button type = "button"><img src="./assets/images/Daily_Spin_Blue_Gem.png"></button>
+		<button type = "button"><img src="./assets/images/Daily_Spin_Green_Gem.png"></button>
+		<button type = "button"><img src="./assets/images/Daily_Spin_Orange_Gem.png"></button>
+		<button type = "button"><img src="./assets/images/Daily_Spin_Yellow_Gem.png"></button>
+
+
+	</span>
+
+		
+
+
+</body>
+</html>
