@@ -1,0 +1,21 @@
+body{
+	background-image: url("./images/subtle_white_feathers_@2X.png");
+}
+
+button{
+	height: 143px;
+	width: 132px;
+}
+
+.instructions{
+	width: 33%;
+	border-style: solid; 
+	border-color: #87CEEB;
+	display: inline;
+	background-color: blue;
+
+}
+
+.scoreboard {
+
+}

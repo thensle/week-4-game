@@ -1,12 +1,6 @@
 $(document).ready(function(){
 //Game State Initializer and storing variables
 
-
-var blueGemValue = crystalValue();
-var greenGemValue = crystalValue();
-var orangeGemValue = crystalValue();
-var yellowGemValue = crystalValue();
-
 var crystalCollector = {
 	userScore: 0,
 	targetScore: targetNumber(),
@@ -14,15 +8,17 @@ var crystalCollector = {
 	lossCounter: 0
 };
 
+var blueGemValue = crystalValue();
+var greenGemValue = crystalValue();
+var orangeGemValue = crystalValue();
+var yellowGemValue = crystalValue();
+
+
 //At initial game start, display wins/loss counter and target score
 
 	$(".wins").html(crystalCollector.winCounter);
 	$(".losses").html(crystalCollector.lossCounter);
 	$(".target").html(crystalCollector.targetScore);
-
-//Check if crystal buttons have the same value
-
-
 
 //Event Listeners for crystal buttons
 
