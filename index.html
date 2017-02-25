@@ -9,21 +9,22 @@
 	<script type="text/javascript" src = "./assets/game.js"></script>
 </head>
 <body>
-
+<div class = top>
 	<h1>Crystal Collector Game!</h1>
 		<div class = "instructions">
 			<h2>Instructions:</h2>
 
 			<p>You will be given a random number at the start of the game.</p>
-
+			<br>
 			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-
+			<br>
 			<p>You wiin the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-
+			<br>
 			<p>The value of each crystal is hidden from you until you click on it.</p>
-
+			<br>
 			<p>Each time when the game starts, the game will change the values of each crystal.</p>
 		</div>
+</div>
 
 		<span class = "scoreboard">
 			<h4>Wins:</h4>
@@ -31,6 +32,7 @@
 			<h4>Losses:</h4>
 				<span class = "losses"></span>
 		</span>
+	<div class = "scores">
 
 		<span class = "target-number">
 			<h1>Target Score:</h1>
@@ -39,14 +41,17 @@
 
 		<span class = "total">
 			<h1>Your Score:</h1>
-				<div class = "score"></div>			
+				<div class = "score"></div>		
 		</span>
+	</div>
+
+<br><br>
 
 	<span class = "crystal-space">
-		<button class = "blue-gem" type = "button"><img src="./assets/images/Daily_Spin_Blue_Gem.png"></button>
-		<button class = "green-gem" type = "button"><img src="./assets/images/Daily_Spin_Green_Gem.png"></button>
-		<button class = "orange-gem" type = "button"><img src="./assets/images/Daily_Spin_Orange_Gem.png"></button>
-		<button class = "yellow-gem" type = "button"><img src="./assets/images/Daily_Spin_Yellow_Gem.png"></button>
+		<button class = "blue-gem gem" type = "button"><img src="./assets/images/Daily_Spin_Blue_Gem.png"></button>
+		<button class = "green-gem gem" type = "button"><img src="./assets/images/Daily_Spin_Green_Gem.png"></button>
+		<button class = "orange-gem gem" type = "button"><img src="./assets/images/Daily_Spin_Orange_Gem.png"></button>
+		<button class = "yellow-gem gem" type = "button"><img src="./assets/images/Daily_Spin_Yellow_Gem.png"></button>
 
 
 	</span>

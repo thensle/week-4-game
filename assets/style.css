@@ -2,20 +2,37 @@ body{
 	background-image: url("./images/subtle_white_feathers_@2X.png");
 }
 
-button{
-	height: 143px;
-	width: 132px;
-}
-
-.instructions{
-	width: 33%;
+.top{
+	width: 40%;
 	border-style: solid; 
 	border-color: #87CEEB;
-	display: inline;
-	background-color: blue;
+	padding: 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
 
+.instructions {
+	width: 80%;
 }
 
 .scoreboard {
+	padding: 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	width: 50%;
+	border-style: dotted;
+	border-color: orange;
+}
 
+.crystal-space{
+	padding: 15px;
+	margin-top: 10px;
+	border-style: dotted;
+	border-color: green;
+}
+
+.target-number {
+	float: left;
+	margin-right: 15px;
 }
